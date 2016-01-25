@@ -8,7 +8,7 @@ var mocha = new Mocha({
 });
 
 [
-  require.resolve("./filter/test-filter-class.js")
+  require.resolve("./filters/test-filter-class.js")
 ].sort().forEach(filepath => {
   filepath && mocha.addFile(filepath);
 })

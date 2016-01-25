@@ -5,7 +5,7 @@ var chai = require("chai");
 var expect = chai.expect;
 
 describe("Test Filter Class", function () {
-  it("Basic", function(done) {
+  it("Basic", function() {
     expect(true).to.be.equal(true);
   })
 });
